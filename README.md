@@ -2,7 +2,7 @@
 
 ### `About the Assignment`
 
-`This is a platform for sports enthusiasts to find and join sports events near them. With our app, users can browse a list of available events, and view details about each event.`
+`This is a platform for sports enthusiasts to find and join sports events near them. Users can browse a list of available events, and view details about each event.`
 
 <br />
 
