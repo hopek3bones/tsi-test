@@ -2,7 +2,7 @@
   "name": "Hopek3bones",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "nodemon src/server.js",
     "server": "nodemon src/server.js"
