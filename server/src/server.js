@@ -22,9 +22,9 @@ app.use("/event", eventRouter);
 
 mongoose.set("strictQuery", false);
 
-app.get("/", (req,res)=> {
-    res.send("Sport Events");
-})
+ app.get("/", (req,res)=> {
+     res.send("Sport Events");
+ })
 
 app.listen(PORT, async()=>{
     connect();

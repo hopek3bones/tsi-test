@@ -12,7 +12,7 @@ const [isOrganizerLoggedIn, setIsOrganizerLoggedIn] = useState(false);
 const [eventList, setEventList] = useState([]);
 
 const getEventList = async()=>{
-  await axios.get("https://sport-event-mdcf.onrender.com/event")
+  await axios.get("http://localhost:8080/event", )
     .then((res)=>{
       console.log("check")
       setEventList(res.data)

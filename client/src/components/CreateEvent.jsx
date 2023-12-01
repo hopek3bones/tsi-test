@@ -47,7 +47,7 @@ function CreateEvent() {
     const handleSubmit = async(e)=>{
       e.preventDefault();
       await axios({
-        url: "https://sport-event-mdcf.onrender.com/event",
+        url: "http://localhost:8080/event",
         method: "POST",
         headers: {
           Accept: "application/json",

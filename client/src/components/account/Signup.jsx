@@ -28,7 +28,7 @@ const Signup = () => {
       e.preventDefault();
 
       await axios({
-        url: "https://sport-event-mdcf.onrender.com/user/signup",
+        url: "http://localhost:8080/user/signup",
         method: "POST",
         headers: {
           Accept: "application/json",

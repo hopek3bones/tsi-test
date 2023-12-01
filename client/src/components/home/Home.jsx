@@ -35,7 +35,7 @@ const Home = () => {
       })
     }
     await axios({
-      url: `https://sport-event-mdcf.onrender.com/event/${id}`,
+      url: `http://localhost:8080/event/${id}`,
       method: "PUT",
       headers: {
         Accept: "application/json",
@@ -71,7 +71,7 @@ const Home = () => {
 
   const handleSearch = async(e)=>{
     e.preventDefault();
-    await axios.get(`https://sport-event-mdcf.onrender.com/event/search?keyword=${keyword}`)
+    await axios.get(`http://localhost:8080/event/search?keyword=${keyword}`)
       .then((res)=>{
         setEventList(res.data)
       })
